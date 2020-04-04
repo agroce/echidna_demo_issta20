@@ -1,0 +1,13 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/008_v3.sol:RoundToken
+assertion in transferFrom: failed!💥  
+  Call sequence:
+    transferFrom(0x0,0x0,0)
+
+assertion in transfer: failed!💥  
+  Call sequence:
+    transfer(0x0,0)
+
+
+Unique instructions: 1555
+Unique codehashes: 1
+Seed: 6445798289576021758

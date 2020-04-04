@@ -1,0 +1,7 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/017_v35.sol:WavesEthereumSwap
+assertion in approve: failed!💥  
+  Call sequence:
+    approve(0x0,0)
+
+
+Seed: 2639444215775424352

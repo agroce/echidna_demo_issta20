@@ -1,0 +1,11 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/008_v3.sol:RoundToken
+assertion in transferFrom: failed!💥  
+  Call sequence, shrinking (289/5000):
+    transferFrom(0x0,0x0,423058096744538013411323850539266091661552935522675332758840)
+
+assertion in transfer: failed!💥  
+  Call sequence:
+    transfer(0x0,0)
+
+
+Seed: -3662379701939665470

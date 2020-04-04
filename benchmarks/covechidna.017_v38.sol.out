@@ -1,0 +1,9 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/017_v38.sol:WavesEthereumSwap
+assertion in allowance: failed!💥  
+  Call sequence:
+    allowance(0x0,0x0)
+
+
+Unique instructions: 1307
+Unique codehashes: 1
+Seed: 6489922939690549224

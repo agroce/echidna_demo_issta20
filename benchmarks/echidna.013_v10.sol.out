@@ -1,0 +1,7 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/013_v10.sol:WavesEthereumSwap
+assertion in balanceOf: failed!💥  
+  Call sequence:
+    balanceOf(0x0)
+
+
+Seed: 1618045117639184486

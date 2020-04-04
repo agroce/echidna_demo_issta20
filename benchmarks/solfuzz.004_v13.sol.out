@@ -1,0 +1,13 @@
+[33mYou can improve web3's peformance when running Node.js versions older than 10.5.0 by installing the (deprecated) scrypt package in your project[0m
+- Reading input file
+- Detecting solidity version
+- Loading solc v0.4.25
+✔ Loaded solc v0.4.25 from local cache
+- Resolving imports
+- Compiling source(s)
+✔ Compiled with solc v0.4.25 successfully
+- Authenticating user
+- Submitting data for analysis
+✔ Analysis job submitted: https://dashboard.mythx.io/#/console/analyses/689ebf19-401d-4377-a3ad-57330ae9a116
+- All kinds of lasers are being fired
+Error: User or default timeout reached after 180 sec(s). The analysis job state is in progress and the result may become available later.

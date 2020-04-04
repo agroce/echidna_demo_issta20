@@ -1,0 +1,31 @@
+[33mYou can improve web3's peformance when running Node.js versions older than 10.5.0 by installing the (deprecated) scrypt package in your project[0m
+- Reading input file
+- Detecting solidity version
+- Loading solc v0.4.25
+✔ Loaded solc v0.4.25 from local cache
+- Resolving imports
+- Compiling source(s)
+✔ Compiled with solc v0.4.25 successfully
+- Authenticating user
+- Submitting data for analysis
+✔ Analysis job submitted: https://dashboard.mythx.io/#/console/analyses/08030f24-856a-42c6-ae94-de1fbcb3d0de
+- All kinds of lasers are being fired
+- Retrieving analysis results
+- Rendering output
+--------------------
+ASSERTION VIOLATION!
+/Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/012_v14.sol: from 86:0 to 86:13
+
+assert(false)
+--------------------
+Call sequence:
+
+    1: moveToWaves(0x000000000b00000000000000000000000000000000000000000000000000000500000000000000000000000000000000000000000000000000000000095ea7b300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)
+    Sender: 0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe [ CREATOR ]
+    Value: 0
+--------------------
+Call sequence:
+
+    1: transfer(0x0002010020000200000100000000000000000000, 4)
+    Sender: 0xaffeaffeaffeaffeaffeaffeaffeaffeaffeaffe [ CREATOR ]
+    Value: 0

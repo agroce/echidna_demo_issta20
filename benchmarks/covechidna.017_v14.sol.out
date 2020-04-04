@@ -1,0 +1,13 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/017_v14.sol:WavesEthereumSwap
+assertion in moveToWaves: failed!💥  
+  Call sequence, shrinking (4394/5000):
+    moveToWaves("INCOIFNCOF",824) Gas price: 0x85913b977 Time delay: 0x7a4e9 Block delay: 0x318d
+
+assertion in transfer: failed!💥  
+  Call sequence:
+    transfer(0x338,823) Gas price: 0x673f9455f Time delay: 0x804c5 Block delay: 0x5b10
+
+
+Unique instructions: 1199
+Unique codehashes: 1
+Seed: -8307984130889427317

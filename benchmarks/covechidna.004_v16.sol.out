@@ -1,0 +1,9 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/004_v16.sol:MyToken
+assertion in approveAndCall: failed!💥  
+  Call sequence:
+    approveAndCall(0x0,0,"")
+
+
+Unique instructions: 1454
+Unique codehashes: 1
+Seed: 3528812415355193522

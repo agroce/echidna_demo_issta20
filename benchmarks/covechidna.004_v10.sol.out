@@ -1,0 +1,9 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/004_v10.sol:MyToken
+assertion in transfer: failed!💥  
+  Call sequence:
+    transfer(0xa329c0648769a73afac7f9381e08fb43dbea70,706) Gas price: 0x897618ec9 Time delay: 0x6145a Block delay: 0x4854
+
+
+Unique instructions: 1866
+Unique codehashes: 1
+Seed: -2865955174367771920

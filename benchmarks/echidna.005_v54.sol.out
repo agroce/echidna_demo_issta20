@@ -1,0 +1,7 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/005_v54.sol:Token
+assertion in allowance: failed!💥  
+  Call sequence:
+    allowance(0x0,0x0)
+
+
+Seed: -4885966856247456208

@@ -1,0 +1,11 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/014_v15.sol:WavesEthereumSwap
+assertion in moveToWaves: failed!💥  
+  Call sequence:
+    moveToWaves("|i\135\204\EOT\a\232\232\151\232|4\131\206N\198\DEL\n\246h\208\&9J\243H\SOH",2099999999999999) Gas price: 0x43f0e8b1f Time delay: 0x64742 Block delay: 0x4a0e
+
+assertion in transfer: failed!💥  
+  Call sequence:
+    transfer(0x10000,2099999999999999) Gas price: 0x5a00875a6 Time delay: 0x70c7b Block delay: 0x341b
+
+
+Seed: 3617577274155438309

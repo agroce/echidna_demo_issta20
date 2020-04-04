@@ -1,0 +1,7 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/005_v50.sol:Token
+assertion in approve: failed!💥  
+  Call sequence:
+    approve(0x0,0)
+
+
+Seed: -5227891222841128436

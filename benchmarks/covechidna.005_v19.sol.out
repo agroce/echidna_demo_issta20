@@ -1,0 +1,9 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/005_v19.sol:Token
+assertion in balanceOf: failed!💥  
+  Call sequence:
+    balanceOf(0x0)
+
+
+Unique instructions: 1149
+Unique codehashes: 1
+Seed: -2732892632682897397

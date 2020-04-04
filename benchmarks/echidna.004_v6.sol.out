@@ -1,0 +1,7 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/004_v6.sol:MyToken
+assertion in transfer: failed!💥  
+  Call sequence:
+    transfer(0x0,0)
+
+
+Seed: -3366004950123622225

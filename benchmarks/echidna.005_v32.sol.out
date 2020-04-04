@@ -1,0 +1,7 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/005_v32.sol:Token
+assertion in transferFrom: failed!💥  
+  Call sequence:
+    transferFrom(0x0,0x0,0)
+
+
+Seed: 804637818346317316

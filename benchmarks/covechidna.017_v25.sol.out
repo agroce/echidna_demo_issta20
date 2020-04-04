@@ -1,0 +1,10 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/017_v25.sol:WavesEthereumSwap
+assertion in transferFrom: failed!💥  
+  Call sequence:
+    approve(0x20000,93206281171068475987851233745205744121274089800353647308061406838693555783800) from: 00a329c0648769a73afac7f9381e08fb43dbea70 Gas price: 0x1049a1378c Time delay: 0x69c4e Block delay: 0xeab
+    transferFrom(0xa329c0648769a73afac7f9381e08fb43dbea70,0x4573e1635085cdad653484e0e98da7209bca2254,824) from: 0000000000000000000000000000000000020000 Gas price: 0x1303ff5429 Time delay: 0x39a5c Block delay: 0xd7b
+
+
+Unique instructions: 1413
+Unique codehashes: 1
+Seed: 8049059138712690281

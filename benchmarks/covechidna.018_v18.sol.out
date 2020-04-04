@@ -1,0 +1,13 @@
+Analyzing contract: /Users/adg326/VeriSmart-benchmarks/benchmarks/zeus/clean/018_v18.sol:WavesEthereumSwap
+assertion in moveToWaves: failed!💥  
+  Call sequence, shrinking (1283/5000):
+    moveToWaves("",10848189087555)
+
+assertion in transfer: failed!💥  
+  Call sequence:
+    transfer(0x0,0)
+
+
+Unique instructions: 1459
+Unique codehashes: 1
+Seed: -4093274727707465978

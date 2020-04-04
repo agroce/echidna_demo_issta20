@@ -1,0 +1,15 @@
+[33mYou can improve web3's peformance when running Node.js versions older than 10.5.0 by installing the (deprecated) scrypt package in your project[0m
+- Reading input file
+- Detecting solidity version
+- Loading solc v0.4.25
+✔ Loaded solc v0.4.25 from local cache
+- Resolving imports
+- Compiling source(s)
+✔ Compiled with solc v0.4.25 successfully
+- Authenticating user
+- Submitting data for analysis
+✔ Analysis job submitted: https://dashboard.mythx.io/#/console/analyses/135ddf02-28b7-4d26-841b-5361fb1d1d8d
+- All kinds of lasers are being fired
+- Retrieving analysis results
+- Rendering output
+✔ No errors/warnings found in check for contract: EdgelessToken
