@@ -1,1 +1,11 @@
-\section{Design and Architecture}
+\section{Architecture and Design}
+
+\subsection{Echidna Architecture}
+
+\subsection{Continuous Improvement}
+
+A key element of Echidna's design is to make continuous improvement of functionality sustainable.  Echidna has an extensive test suite to ensure improvements do not degrade existing features, and uses Haskell language features to maximize abstraction and applicability of code to new testing approaches.
+
+\subsubsection{Tuning Parameters}
+
+Echidna provides flexibility to users by providing a large number of configurable parameters that control various aspects of testing, including some that have a major impact on test generation.  As we write, there are more than 30 settings, controlled by providing Echidna with a {\tt .yaml} configuration file.  However, in order to avoid overwhelming users with complexity, and to make the out-of-the-box experience as good as possible, every such setting has a frequently-reviewed default setting.  Default settings with a large impact on test generation have all been tuned using some combination of mutation testing (via the universalmutator tool \cite{regexpMut}) on realistic contracts and evaluation over large benchmark sets.  Rather than always tune to a single set of fixed benchmarks, we have thus far varied the benchmarks used, and confirmed results with different approaches, to avoid over-fitting to a single set of contracts or bugs.  Empirical, statistical, tuning produced some surprises:  e.g., the dictionary of mined constants was initially only used infrequently in transaction generation, but we found that coverage could often be improved significantly by using constants 40\% of the time.
