@@ -20,7 +20,12 @@ pragma solidity ^0.4.17;
 
 library SafeMath {
 
-    function mul(uint256 a, uint256 b) internal pure returns (uint256) {
+    function sassert(bool v) internal {
+	     if (!v) {
+	          throw;
+         }
+    }
+    function mul(uint256 a, uint256 b) internal returns (uint256) {
 
         if (a == 0) {
 
@@ -30,7 +35,7 @@ library SafeMath {
 
         uint256 c = a * b;
 
-        assert(c / a == b);
+        sassert(c / a == b);
 
         return c;
 
@@ -38,13 +43,13 @@ library SafeMath {
 
 
 
-    function div(uint256 a, uint256 b) internal pure returns (uint256) {
+    function div(uint256 a, uint256 b) internal returns (uint256) {
 
-        // assert(b > 0); // Solidity automatically throws when dividing by 0
+        // sassert(b > 0); // Solidity automatically throws when dividing by 0
 
         uint256 c = a / b;
 
-        // assert(a == b * c + a % b); // There is no case in which this doesn't hold
+        // sassert(a == b * c + a % b); // There is no case in which this doesn't hold
 
         return c;
 
@@ -52,9 +57,9 @@ library SafeMath {
 
 
 
-    function sub(uint256 a, uint256 b) internal pure returns (uint256) {
+    function sub(uint256 a, uint256 b) internal returns (uint256) {
 
-        assert(b <= a);
+        sassert(b <= a);
 
         return a - b;
 
@@ -62,11 +67,11 @@ library SafeMath {
 
 
 
-    function add(uint256 a, uint256 b) internal pure returns (uint256) {
+    function add(uint256 a, uint256 b) internal returns (uint256) {
 
         uint256 c = a + b;
 
-        assert(c >= a);
+        sassert(c >= a);
 
         return c;
 
